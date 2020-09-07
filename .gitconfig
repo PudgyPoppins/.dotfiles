@@ -1,0 +1,6 @@
+[user]
+	email = pudgypoppins@gmail.com
+	signingkey = 33165D8778C70EE2
+	name = pine
+[commit]
+	gpgsign = true

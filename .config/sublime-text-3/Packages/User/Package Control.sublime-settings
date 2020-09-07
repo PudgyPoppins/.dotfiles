@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Agila Theme",
+		"ayu",
+		"Color Highlight",
+		"MarkdownPreview",
+		"Nord",
+		"Package Control",
+		"Sass",
+		"Solarized Color Scheme",
+		"Theme - Soda SolarizedDark"
+	]
+}

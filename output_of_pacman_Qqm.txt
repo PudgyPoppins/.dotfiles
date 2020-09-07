@@ -1,0 +1,1 @@
+auracle-git minecraft-launcher nerd-fonts-hermit oh-my-zsh-git otf-san-francisco pacaur polybar powerline-fonts-git redshift-minimal siji-git zsh-theme-powerlevel10k-git
