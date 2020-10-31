@@ -1,0 +1,4 @@
+[Added Associations]
+application/x-wine-extension-skb=wine-extension-skp.desktop;
+application/pdf=firefox.desktop;
+image/png=firefox.desktop;

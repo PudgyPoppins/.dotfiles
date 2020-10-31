@@ -1,6 +1,6 @@
 * {
   /* General */
-  text-font:                            "Comfortaa 14";
+  text-font:                            "Comfortaa 16";
   text-font-mono:                       "RobotoMono Nerd Font Regular 14";
   icon-font:                            "Hurmit Nerd Font Mono 90";
   icon-font-small:                      "Hurmit Nerd Font Mono 24";
@@ -17,10 +17,10 @@
    * Values bellow are 'no-padding' ones for a size 60 (@icon-font) font, played around using this character: ■
    * We then add add 100 actual padding around the icons.
    *                                    -12px 0px   -19px -96px */
-  option-element-padding:               54px  80px 50px  -70px;
+  option-element-padding:               54px  80px 50px  -25px;
   option-3-window-padding:              390px 381px;
   option-3-listview-spacing:            140px;
-  option-5-window-padding:              420px 225px;
+  option-5-window-padding:              420px 235px;
   option-5-listview-spacing:            77px;
   option-6-listview-spacing:            50px;
   /* appsmenu */

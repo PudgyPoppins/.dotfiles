@@ -2,7 +2,6 @@ set number
 syntax on
 set linebreak
 set showbreak=+++
-set textwidth=100
 set showmatch
 set visualbell
  

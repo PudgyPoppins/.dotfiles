@@ -35,8 +35,8 @@ bindsym $mod+d exec appsmenu
 bindsym $mod+p exec powermenu
 #bindsym XF86MonBrightnessUp exec xbacklight -ctrl intel_backlight -inc 10
 #bindsym XF86MonBrightnessDown exec xbacklight -ctrl intel_backlight -dec 10
-bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 3db+
-bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 3db-
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 2%+
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 2%-
 
 bindsym XF86AudioMute exec amixer sset Master toggle
 
