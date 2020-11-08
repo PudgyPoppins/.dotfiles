@@ -26,9 +26,18 @@ ln -sf ${BASEDIR}/.Xresources ~/.Xresources
 ln -sf ${BASEDIR}/.ssh/ ~/.ssh
 ln -sf ${BASEDIR}/.icons/ ~/.icons
 
+# set up config
+mkdir ~/.config
+for folder in $(ls ${BASEDIR}/.config)
+do
+    echo "moving $folder to .config"
+    ln -sf ${BASEDIR}/.config/$folder ~/.config/$folder
+done
+
 #set wallpapers
-ln -sf ${BASEDIR}/Pictures/ ~/Pictures
-cp -f ${BASEDIR}/Pictures/Wallpapers/Wallpaper_Day.png /usr/share/backgrounds/Wallpaper_Day.png
+mkdir ~/Pictures
+ln -sf ${BASEDIR}/Wallpapers ~/Pictures/Wallpapers
+cp -f ${BASEDIR}/Wallpapers/Wallpaper_Day.png /usr/share/backgrounds/Wallpaper_Day.png
 
 #set lightdm greeter
 cd lightdm-tiny-greeter
